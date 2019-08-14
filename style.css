@@ -1,0 +1,66 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+
+body, ul, h2, p, img {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    background-color: #3E53A3;
+    height: 87px;
+    position: absolute;
+    top:0;
+    z-index:1;
+    width: 100%;
+}
+
+.wrapper{
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 87px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.menu_logo{
+    float: left;
+    display: inline;
+}
+
+.menu_logo img{
+    width: 77px;
+    vertical-align: middle;
+}
+
+.menu_list{
+    overflow: hidden;
+}
+
+.menu_list li{
+    float: right;
+    margin-left: 48px;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.menu_list li a:hover{
+    color: black;
+}
+
+
+.menu_list li a{
+    color: white;
+}
