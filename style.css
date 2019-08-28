@@ -125,22 +125,71 @@ li{
 }
 
 
-.main_img{
+/*.main_img{
     position: absolute;
     bottom: 0;
     right: 250px;
     animation: mymove 3s 1;
 }
+*/
 
-.overview{
-    margin-top: 100px;
+.up{
+    position: absolute;
+    top:30px;
+    width: 1000px;
+    height: 1000px;
+    right: 90px;
+    float: right;
+    animation: upup 3s 1;
+
+}
+.up_down{
+    position: absolute;
+    bottom: 100px;
+    width: 1000px;
+    height: 1000px;
+    right: 90px;
+    float: right;
+    animation: downdown 3s 1;
 }
 
+.shadow{
+    position: absolute;
+    bottom: 100px;
+    width: 1000px;
+    height: 1000px;
+    right: 90px;
+    float: right;
+    opacity: 0.5;
+    animation: sha 3s 1;
+}
+
+
+.overview{
+    height: 800px;
+    margin: 180px auto;
+    display: block;
+}
+
+@keyframes upup {
+  from {top: -400px;}
+}
+@keyframes downdown {
+  from {bottom: -400px;}
+}
+
+@keyframes sha {
+    from {
+        bottom: -400px;
+        opacity: 0;}
+    to {opacity: 0.5;}
+}
 
 @keyframes mymove {
   from {bottom: -700px;}
   to {bottom: 0px;}
 }
+
 
 @keyframes opa {
   0%{opacity: 0.5;}
