@@ -165,12 +165,118 @@ li{
 }
 
 
-.overview{
-    height: 800px;
-    margin: 180px auto;
+.ballon{
+    width: 950px;
+    margin: 0 auto;
+    display: block;
+}
+.ux{
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 40px;
     display: block;
 }
 
+.img_group{
+    position: relative;
+}
+
+.img_group2{
+    position: relative;
+    margin-top: 50px;
+}
+.long{
+    height: 13000px;
+}
+#sparkle{
+    position: absolute;
+    width: 0;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: all 1.1s ease-in-out;
+    -webkit-transition:all 1.1s ease-in-out;
+}
+
+.system{
+    width: 860px;
+    margin: 0 auto;
+    display: block;
+}
+
+#coin{
+    position: absolute;
+    width: 670px;
+    left: 17px;
+    right: 0;
+    margin: 0 auto;
+    top: 210px;
+    transition: all 1.1s ease-in-out;
+    -webkit-transition:all 1.1s ease-in-out;
+}
+
+#myVideo{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+.text {
+    top: 150px;
+    position: absolute;
+    text-align: center;
+    z-index: 4;
+    color: #333333;
+    left: 0;
+    right: 0;
+}
+.text h5{
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 0;
+}
+
+.text span{
+    font-weight:900;
+    font-size: 20px;
+}
+
+.back{
+    background-color: #f0f0f0;
+    width: 3020px;
+    height: 1200px;
+}
+
+#myVideo2{
+		position: absolute;
+		width:80%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+
+.fp-viewing-second #sparkle{
+    width: 1300px
+}
+.fp-viewing-second #coin{
+    top: 110px;
+}
 @keyframes upup {
   from {top: -400px;}
 }
