@@ -143,8 +143,8 @@ li{
 
 #coin{
     position: absolute;
-    width: 670px;
-    left: 17px;
+    width: 600px;
+    left: 20px;
     right: 0;
     margin: 0 auto;
     top: 210px;
@@ -257,6 +257,21 @@ li{
     color: #666666;
     font-weight: 600;
 }
+
+.text_left h5{
+    font-weight: 100;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+}
+.text_right h5{
+    font-weight: 100;
+    position: absolute;
+    z-index: 9;
+    right: 300px;
+    top: 50%;
+}
+
 #myVideo2{
 		position: absolute;
 		width:80%;
@@ -278,8 +293,8 @@ li{
 #slidevideo{
     position: absolute;
     width: 30%;
-    bottom: -0;
-    left: 400px;
+    bottom: 80px;
+    left: 500px;
 }
 
 #slide_img{
@@ -338,6 +353,45 @@ li{
     transition: all 1.1s ease-in-out;
 }
 
+.bucket_m{
+    width: 1200px;
+    position: absolute;
+    top:-150px;
+    right: 150px;
+         opacity: 0.5;
+    -webkit-transition: all 1.1s ease-in-out;
+    transition: all 1.1s ease-in-out;
+
+}
+.text p{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.slide4_text{
+    position: absolute;
+    top: 330px;
+    color: #ffffff;
+}
+
+.slide4_text span{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.slide4_text h1{
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 50px;
+}
+.slide4_text h3{
+    font-weight: 100;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+
 .s3 .text span{
     color: white;
 }
@@ -345,8 +399,10 @@ li{
     color: white;
     font-size: 40px;
 }
+.s3 #sparkle{
+    top:160px;
 
-
+}
 .fp-viewing-second #sparkle{
     width: 1300px;
 }
@@ -373,4 +429,10 @@ li{
 }
 .fp-viewing-6thPage-0 #bucket2{
     bottom: -160px;
+}
+.fp-viewing-6thPage-1 .bucket_m{
+   opacity: 1;
+}
+.fp-viewing-6thPage-0 #sparkle{
+   width: 1300px;
 }
