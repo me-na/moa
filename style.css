@@ -215,7 +215,7 @@ li{
     width: 1500px;
     height: 1500px;
     top: 500px;
-    left: 550px;
+    left: 350px;
     -webkit-transition:all 1.1s ease-in-out;
     transition:all 1.1s ease-in-out;
 }
@@ -294,7 +294,13 @@ li{
     position: absolute;
     width: 30%;
     bottom: 80px;
-    left: 500px;
+    left: 400px;
+}
+
+#mina{
+    position: absolute;
+    width: 700px;
+    right: 100px;
 }
 
 #slide_img{
@@ -323,13 +329,16 @@ li{
 }
 .white{
     position: absolute;
-    top:530px;
+    top:47vh;
     left: 60px;
     width: 20px;
 }
+.white:hover{
+         cursor: pointer;
+}
 .white2{
     position: absolute;
-    top:530px;
+    top:47vh;
     right: 60px;
     width: 20px;
     transform: rotate(180deg);
@@ -386,6 +395,28 @@ li{
     font-size: 50px;
 }
 .slide4_text h3{
+    font-weight: 100;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.slid5_text{
+    position: absolute;
+    top: 330px;
+    color: #333333;
+}
+
+.slide5_text span{
+    color: #666666;
+    font-weight: 600;
+}
+
+.slide5_text h1{
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 50px;
+}
+.slide5_text h3{
     font-weight: 100;
     line-height: 35px;
     font-size: 20px;
