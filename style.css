@@ -197,6 +197,10 @@ li{
     font-size: 20px;
 }
 
+.text h5 span{
+    font-weight: 400; 
+    font-size: 17px;
+}
 .slide{
     position: relative;
     
@@ -240,7 +244,11 @@ li{
     line-height: 35px;
     font-size: 20px;
 }
-
+.slide3_text h3{
+    font-weight: 100;
+    line-height: 35px;
+    font-size: 20px;
+}
 .slide3_text {
     position: absolute;
     top: 330px;
@@ -274,6 +282,13 @@ li{
     top: 50%;
     font-size: 17px;
     right: 200px;
+}
+
+.text_left span{
+    font-weight: 400;
+}
+.text_right span{
+    font-weight: 400;
 }
 
 #myVideo2{

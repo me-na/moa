@@ -85,12 +85,13 @@
                        <div class ="text"><span>손쉬운 결제</span>
                        </div> 
                        <div class ="text_left">
-                           <h5>방문한 마트의 구매 기록을 불러와<br>
+                           <h5>방문한 마트의 <span>구매 기록을 불러와</span><br>
                            최근 구매한 것들의 내용을 확인이 가능합니다.</h5>
                        </div>
                        <div class ="text_right">
-                           <h5>방문한 마트의 구매 기록을 불러와<br>
-                           최근 구매한 것들의 내용을 확인이 가능합니다.</h5>
+                           <h5>점원이 바코드를 찍을때 
+                           <br><span>바로 결재 내역이 앱으로</span> 들어와 쉽게 확인후<br>
+                            버튼을 눌러 빠르게 결제합니다.</h5>
                        </div>
                    </div>
                    <div class="back">                 
@@ -106,8 +107,8 @@
             <div class="intro">
                 <div class="wrapper">
                        <div class ="text"><span>Main page</span>
-                          <h5>모아 뱅크의 주요 기능을 간단하게 일러스트로 나타냈고</h5>
-                        <h5>시각을 사로잡기 위해  움직이는 온보딩으로 디자인 하였습니다.</h5>
+                          <div class="h5"><h5><span>현재 소비 평가</span>에 관한 멘트와 귀여운 일러스트로 구성하였습니다.</h5>
+                        <h5><span>현재 남은 잔액</span>을 쉽게 볼 수 있도록 그래프로 표현 하였습니다.</h5></div>
                         </div> 
                    </div>
                    <div class="back">                 
@@ -150,7 +151,10 @@
             <div class="slide3_text">
               <span>귀찮은 소비분석까지</span>
               <h1>모아뱅크가</h1>   
-              <h1>다 해드립니다!</h1>            
+              <h1>다 해드립니다!</h1> 
+              <h3>매일 하기에 귀찬았던 소비분석
+              <br>모아뱅크로 쉽고 빠르게!
+             </h3>             
           </div>
           </div>
         </div>
@@ -214,12 +218,17 @@
        <footer>
            
        </footer>
+
+
     <script>
         new fullpage('#full-page',{
             licenseKey:'OPEN-SOURCE-GPLV3-LICENSE',
-            sectionsColor:['#3E53A3','white','white','white','#e4f2fc','#3D50A5','#ffffff'],
+            sectionsColor:['#3E53A3','white','white','white','#e4f2fc','#3D50A5','#e4f2fc'],
             scrollingSpeed:1000,
-            anchors:['first','second','3rdPage','4thPage','5thPage','6thPage','7thPage']
+            menu: '#menu',
+            anchors:['first','second','3rdPage','4thPage','5thPage','6thPage','7thPage'],
+            continuousVertical: true,
+            
         });
         </script>
     </body>
